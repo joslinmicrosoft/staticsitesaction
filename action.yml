@@ -17,9 +17,6 @@ inputs:
     description: 'Location of Api Artifacts'
     required: false
     default: 'api'
-outputs:
-  time: # id of output
-    description: 'The time we we greeted you'
 runs:
   using: 'docker'
   image: 'Dockerfile'
