@@ -1,3 +1,3 @@
 #!/bin/sh -l
 cd /bin/staticsites/
-dotnet StaticSitesClient.dll $INPUT_ACTION --verbose=true
+dotnet StaticSitesClient.dll --verbose=true $INPUT_ACTION
