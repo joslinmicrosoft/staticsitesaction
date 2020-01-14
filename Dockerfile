@@ -1,4 +1,4 @@
-FROM joslinmicrosoft/basic-deploy:sscanary
+FROM joslinmicrosoft/basic-deploy:joslin
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
